@@ -1,2 +1,13 @@
-# tp-github-devops
-TP GitHub — Master DevOps &amp; Cloud Computing
+# TP GitHub DevOps
+
+Projet d'apprentissage GitHub pour le cours DevOps.
+
+## Fonctionnalites
+- Calcul IMC
+- Conversion de temperature
+
+## Installation
+pip install pytest
+
+## Tests
+pytest tests/
