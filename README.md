@@ -12,3 +12,4 @@ pip install pytest
 ## Tests
 pytest tests/
 # Conflit simulé
+## Rapport de synthese du projet
