@@ -8,3 +8,11 @@ def calculer_imc(poids, taille):
         return imc, "Surpoids"
     else:
         return imc, "Obésité"
+
+def convertir_temperature(valeur, unite):
+    if unite.upper() == "C":
+        return valeur * 9/5 + 32, "F"
+    elif unite.upper() == "F":
+        return (valeur - 32) * 5/9, "C"
+    else:
+        raise ValueError("Unite invalide")
