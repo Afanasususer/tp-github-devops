@@ -16,3 +16,6 @@ def convertir_temperature(valeur, unite):
         return (valeur - 32) * 5/9, "C"
     else:
         raise ValueError("Unite invalide")
+
+def formater_message(msg, majuscules=False):
+    return msg.upper() if majuscules else msg.lower()
